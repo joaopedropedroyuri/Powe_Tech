@@ -1,0 +1,184 @@
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #2f4538;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222b22;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 33px;
+}
+h2{
+	
+	color: black;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Imagem (logo) */
+img {
+    margin-left: -1000px;
+    margin-top: -140px;
+}
+
+/* Container principal */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: ##2f4538;
+}
+
+/* Seções em caixas */
+.section-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título dentro das caixas */
+.section-box h2 {
+    margin-top: 0;
+    color: black;
+}
+
+/* Lista de valores */
+.section-box ul {
+    padding-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    width: 350px;
+    max-width: 90%;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+#loginForm label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+}
+
+#loginForm input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+#loginForm input:focus {
+    border-color: #0078d4;
+    outline: none;
+}
+
+#loginForm button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#loginForm button:hover {
+    background-color: #005fa3;
+}
+nav ul li button#loginBtn {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+/* Hover igual ao dos links */
+nav ul li button#loginBtn:hover {
+    color: #0078d4;
+}
